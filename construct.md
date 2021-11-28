@@ -46,7 +46,7 @@ $ git status
 
 - Acesse a pasta ***\Dio*** e abra o README.md. Por ele, poderá colocar a introdução do seu projeto utilizando o Markdown. Salve o mesmo.
 
--  De volta no Git Bash, podemos colocar no Stage apenas arquivos novos e modificados.
+-  De volta no Git Bash, podemos colocar no Stage todos arquivos (novos, modificados e removidos) no index/stage
 
 ~~~bash
 $ git add .
@@ -86,7 +86,7 @@ $ git add .
 
 Serão adicionados os arquivos: About.cshtml, Contact.cshtml, Index.cshtml e Privacy.cshtml. Mas não serão adicionados os arquivos de outros diretórios, por exemplo: HomeController.cs, que está no diretório src/Controllers/.
 
-- ***git add * ***: vai funcionar exatamente igual ao comando anterior, adicionando somente os arquivos da pasta corrente ao que o comando foi executado.
+- ***git add * (asterisco)***: vai funcionar exatamente igual ao comando anterior, adicionando somente os arquivos da pasta corrente ao que o comando foi executado.
 
 - ***git add -u***, ou ***git add --update*** vai fazer um update na stagging nos arquivos que já estão sendo rastreados pelo Git.
 
