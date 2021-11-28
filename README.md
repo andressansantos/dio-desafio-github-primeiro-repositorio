@@ -6,7 +6,7 @@ Estamos aqui:
 - 👾 Twitch: https://twitch.tv/ehmuitodrama
 - 📽 Youtube: http://youtube.com/ehmuitodramaa
 - 🎙 Podcast: https://anchor.fm/hero-code
-- 📸 com flashInstagram: https://instagram.com/ehmuitodrama/
+- 📸 Instagram: https://instagram.com/ehmuitodrama/
 - ✍🏻 Site: https://ehmuitodrama.com.br
 - 🧠 Discord: https://discord.gg/n9KBKHPA3H
 
@@ -35,6 +35,6 @@ Link para download para Git:
 
 > [Markdown basic](https://docs.pipz.com/central-de-ajuda/learning-center/guia-basico-de-markdown#open)
 
-# Guia Construt <h3>
+# Guia Construt Comandos GIT <h3>
 
-> [Passo a Passo](https://gitforwindows.org)
+> [Passo a Passo](https://github.com/andressansantos/dio-desafio-github-primeiro-repositorio/blob/main/construct.md)
