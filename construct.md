@@ -64,3 +64,36 @@ $ git commit -m "Atualização README"
 $ git push origin main
 ~~~
 
+# Observações Comando Git Add <h2>
+
+Os comandos ***git add --all*** e ***git add .***, podem parecer iguais mas fazem ações bem diferentes:
+
+- ***git add --all***: adiciona ao staging arquivos desde a raiz do repositório passando por todos os subdiretórios, e aqui está a diferença, não importa se você está na raiz ou no sub-diretório.
+
+- ***git add .***: usando o ponto, será adicionado ao stagging somente os arquivos a partir do diretório que você está, e os sub-diretórios deste.
+
+Exemplo:
+
+Usando a seguinte estrutura de arquivos e pastas como exemplo:
+
+(https://i.imgur.com/M1eHn30.png)
+
+Considerando que somente o .gitignore está versionado no repositório, se você estiver no diretório src/Views/Home e executar:
+
+~~~bash
+$ git add .
+~~~
+
+Serão adicionados os arquivos: About.cshtml, Contact.cshtml, Index.cshtml e Privacy.cshtml. Mas não serão adicionados os arquivos de outros diretórios, por exemplo: HomeController.cs, que está no diretório src/Controllers/.
+
+- ***git add * ***: vai funcionar exatamente igual ao comando anterior, adicionando somente os arquivos da pasta corrente ao que o comando foi executado.
+
+- ***git add -u***, ou ***git add --update*** vai fazer um update na stagging nos arquivos que já estão sendo rastreados pelo Git.
+
+Continuando a usar o exemplo anterior, depois de executar o ***git add .*** e em seguida ***git commit -m "Primeiro"***, ainda existirão arquivos a serem adicionados ao respositório; então, edita-se o arquivo ***About.cshtml***. Executando um ***git status***, o estado do repositório será:
+
+(https://i.imgur.com/4s739nJ.png)
+
+Executando o comando ***git add -u***, somente o arquivo ***About.cshtml*** é colocado na área de staging, os outros arquivos que ainda não estão no repositório continuam como não rastreados pelo Git. Esse comando vai funcionar tanto para arquivos modificados como para apagados.
+
+[Fonte da Observação](https://pt.stackoverflow.com/questions/326160/diferen%C3%A7a-entre-git-add-all-git-add-e-git-add-u)
