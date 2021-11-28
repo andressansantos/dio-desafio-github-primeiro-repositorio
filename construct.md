@@ -1,16 +1,14 @@
-<h3>Introdução </h3>
+# Criando o Diretório <h2>
 
-Primeiro passo é a criação da pasta na sua maquina.
+Primeiro passo é a criação das pastas na sua maquina.
 Em nosso exemplo, criamos no Documentos as seguintes pastas:
 
-*/Dev/Git/Dio*
+**C:\Users\Usuario\Documents\Dev\Git\Dio**
 
-Ficando da seguinte forma:
+Nosso diretório do GitHub será clonado para a pasta Dio na maquina.
 
-''' 
-C:\Users\Usuario\Documents\Dev\Git\Dio
+# Criando diretório no Github <h2>
 
-'''
+Conforme na imagem a seguir, crie o diretório.
 
-
-
+![Exemplo](https://imgur.com/KfiCZCC)
