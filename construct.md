@@ -11,4 +11,4 @@ Nosso diretório do GitHub será clonado para a pasta Dio na maquina.
 
 Conforme na imagem a seguir, crie o diretório.
 
-![Exemplo](https://imgur.com/KfiCZCC)
+![Exemplo](https://i.imgur.com/KfiCZCC.png)
