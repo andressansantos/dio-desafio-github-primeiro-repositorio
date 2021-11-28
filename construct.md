@@ -76,7 +76,7 @@ Exemplo:
 
 Usando a seguinte estrutura de arquivos e pastas como exemplo:
 
-[Estrutura](https://i.imgur.com/M1eHn30.png)
+![Estrutura](https://i.imgur.com/M1eHn30.png)
 
 Considerando que somente o .gitignore está versionado no repositório, se você estiver no diretório src/Views/Home e executar:
 
@@ -92,7 +92,7 @@ Serão adicionados os arquivos: About.cshtml, Contact.cshtml, Index.cshtml e Pri
 
 Continuando a usar o exemplo anterior, depois de executar o ***git add .*** e em seguida ***git commit -m "Primeiro"***, ainda existirão arquivos a serem adicionados ao respositório; então, edita-se o arquivo ***About.cshtml***. Executando um ***git status***, o estado do repositório será:
 
-[Estrutura](https://i.imgur.com/4s739nJ.png)
+![Estrutura](https://i.imgur.com/4s739nJ.png)
 
 Executando o comando ***git add -u***, somente o arquivo ***About.cshtml*** é colocado na área de staging, os outros arquivos que ainda não estão no repositório continuam como não rastreados pelo Git. Esse comando vai funcionar tanto para arquivos modificados como para apagados.
 
